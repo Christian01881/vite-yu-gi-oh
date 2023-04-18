@@ -46,7 +46,7 @@
 
     .orange{
         background-color: #d48f38;
-        min-height: 110px;
+        min-height: 130px;
     }
 
     @media screen and (max-width: 992px) {
