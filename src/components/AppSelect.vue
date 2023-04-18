@@ -5,9 +5,9 @@
                 <option selected value="">All</option>
                 <option :value="archetype.archetype_name" v-for="archetype in store.Archetypes">{{ archetype.archetype_name }}</option>
             </select>
-            <input type="text" placeholder="Search Card" v-model="store.search.fname">
-            <button type="button" @click="$emit('searchCards')">Search</button>
-            <button type="button" @click="resetAll()">Reset</button>    
+            <input class="ms-3" type="text" placeholder="Search Card" v-model="store.search.fname">
+            <button class="ms-3" type="button" @click="$emit('searchCards')">Search</button>
+            <button class="ms-3" type="button" @click="resetAll()">Reset</button>    
         </div>
     </div>
 </template>

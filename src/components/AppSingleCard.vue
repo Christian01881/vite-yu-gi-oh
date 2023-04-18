@@ -48,4 +48,18 @@
         background-color: #d48f38;
         min-height: 110px;
     }
+
+    @media screen and (max-width: 992px) {
+        .CPM-card{
+            max-width: calc(100% / 3);
+            min-height: calc(100vw / 3);
+        }
+    }
+
+    @media screen and (max-width: 768px) {
+        .CPM-card{
+            max-width: calc(100% / 2);
+            min-height: calc(100vw / 2);
+        }
+    }
 </style>
